@@ -10,11 +10,7 @@ public class Address_Book{
 	 String email;
 	 long zipCode;
 	 long phoneNumber;
-	
 
-	
-	
-	
 	//method to take input from the user
 	public void details()
 		{
@@ -307,9 +303,7 @@ public class Address_Book{
 					                   default:
 					                      break;
 					               }			
-					
-					
-							
+											
 					        System.out.println("Contacts in Address Book 1");
 							for(int count=0;count<list.size();count++)
 							{
@@ -467,14 +461,10 @@ public class Address_Book{
 
 	                   default:
 	                      break;
-	               }			
-
-
-			
+	               }						
 			System.out.println("Contacts in Address Book2");
 			for(int count1=0;count1<list2.size();count1++)
 			{
-
 				System.out.println(list2.get(count1));
 			}
 			break;//case 2 break
